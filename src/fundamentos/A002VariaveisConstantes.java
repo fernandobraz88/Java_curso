@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class VariaveisConstantes
+public class A002VariaveisConstantes
 {
     public static void main(String[] args)
     {

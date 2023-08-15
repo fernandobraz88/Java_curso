@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class PrimeiroPrograma
+public class A001PrimeiroPrograma
 {
     public static void main(String[] args)
     {

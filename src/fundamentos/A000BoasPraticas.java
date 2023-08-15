@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class BoasPraticas
+public class A000BoasPraticas
 {
     public static void main(String[] args)
     {

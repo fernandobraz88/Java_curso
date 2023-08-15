@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class Inferencia {
+public class A003Inferencia {
     //Inferencia é uma presunção que o proprio java faz quando, dentro de um metodo, nao se declara o tipo da variavel
     //Nesse caso utiliza-se a palavra reservada "var" antes do nome da variável e o java vai atribuir o tipo baseado no valor
     //Após a Inferencia a variável não pode mais ter seu tipo de valor modificado.
