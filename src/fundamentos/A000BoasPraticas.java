@@ -24,6 +24,14 @@ public class A000BoasPraticas
         * Organize suas classes em pacotes para manter uma estrutura lógica.
         * Use nomes de pacotes em minúsculas e significativos para evitar conflitos.*/
 
+        /* Indentação e Espaçamento:
+        * Use indentação consistente para melhorar a legibilidade.
+        * Use espaços para separar operadores e elementos, mantendo uma formatação consistente.*/
+
+        /* Encapsulamento:
+        * Use modificadores de acesso (public, private, protected) para limitar o acesso aos membros das classes
+        conforme a necessidade. Isso ajuda a controlar o acesso e a reduzir o acoplamento.*/
+
 
     }
 }
