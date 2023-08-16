@@ -18,5 +18,6 @@ public class A005NotacaoPonto {
         s = s.concat("!!!!"); // serve para concatenar sem precisar usar o "+" no print
 
         System.out.println(s);
+
     }
 }
