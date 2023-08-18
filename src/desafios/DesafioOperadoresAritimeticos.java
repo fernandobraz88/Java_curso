@@ -10,7 +10,7 @@ public class DesafioOperadoresAritimeticos {
 
         int a = (6*(3+2));
         int b = ((1-5)*(2-7))/2;
-        int c = ((int)Math.pow(a, 2))/(3*2);
+        int c = (int)Math.pow(a, 2)/(3*2);
         int d = (int)Math.pow(b, 2);
         int e = c - d;
         int resultado = (int)Math.pow(e, 3)/(int)Math.pow(10, 3);
