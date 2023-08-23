@@ -1,6 +1,7 @@
 package fundamentos;
 
 public class A007TipoString {
+	//IMPORTANTE: Sempre comparar strings usando .equals()
 
     public static void main(String[] args) {
 
