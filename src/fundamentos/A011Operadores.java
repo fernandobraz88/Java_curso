@@ -69,7 +69,32 @@ public class A011Operadores {
                      <= menor ou igual a
               */
 
-            //todo operador relacional retorna um resultado do tipo boolean
+            //todo operador relacional retorna um resultado do tipo boolean (true ou false)
+        }
+        {
+            /* Operadores Ternarios
+                 * Atribuição condicional
+                 * Atribui determinado valor a uma variavel mediante a satisfação ou nao de uma condição.
+              */
+            double media = 7.5;
+            String resultado = media >=7 ? "Aprovado" : "Reprovado";
+            System.out.println(resultado);
+        }
+        {
+            /* Operadores de Atribuição
+                * = atribui a uma variavel um determinado valor
+                * += soma o valor em questão ao valor da variavel.
+                * -= decresce o valor em questão do valor da variavel
+                * *= multiplica a variavel pelo valor em questao
+                * /= divide a variavel pelo valor em questão
+                * %= operador modular, mostra o resto da divisao da variavel pelo operando em questao
+            */
+            int a = 3;
+            a += 2;
+            a -= 1;
+            a *= 4;
+            a /= 2;
+            System.out.println("a = " + a);
         }
     }
 }
