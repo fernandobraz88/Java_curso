@@ -35,11 +35,11 @@ public class A01_IfElse {
 
             if(media3 <= 10.0 && media3 >= 7.0)
             {
-                System.out.println("Aluno Aprovado"); //se a condiçao for verdadeira
+                System.out.println("Aluno Aprovado"); //se a condiçao for verdadeira, execute...
             }
             else
             {
-                System.out.println("Aluno reprovado");//se for falsa
+                System.out.println("Aluno reprovado");//se for falsa, execute...
             }
 
             //==============================================================================================================
