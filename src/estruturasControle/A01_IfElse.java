@@ -59,7 +59,7 @@ public class A01_IfElse {
             {
                 System.out.println("Aluno em recuperação");
             }
-            else 							//caso nenhuma condição descrita anteriormente retorne verdadeiro o ELSE sera executado
+            else 		//caso nenhuma condição descrita anteriormente retorne verdadeiro o ELSE sera executado
             {
                 System.out.println("Aluno reprovado");
             }
