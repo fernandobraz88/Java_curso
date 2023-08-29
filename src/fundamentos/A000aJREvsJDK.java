@@ -9,6 +9,6 @@ public class A000aJREvsJDK {
 
     //JVM: Java Virtual Machine - Interpreta o bytecode
 
-    //O conceito de maquina virtual, faz com que o codigo precise ser compilado apenas uma vez, ja que a propia JVM
+    //O conceito de maquina virtual, faz com que o codigo precise ser compilado apenas uma vez, ja que a propria JVM
     //fará a conversão do bytecode para o sistema operacional em questão
 }
