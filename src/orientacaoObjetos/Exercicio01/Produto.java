@@ -4,23 +4,29 @@ public class Produto {
 
     String nome;
     double preco;
-    double desconto;
+    static double desconto = 0.25; //static faz com que o atributo seja atrelado a classe.
 
-    //métodos construtores:
 
-    public Produto() {/*construtor generico - parametros repassados via notação ponto*/}
+    //métodos construtores: pode-se ter varios construtores
 
-    public Produto(String nome, double preco, double desconto){
-        /*parametros repassados no proprio construtor durante a criação do objeto*/
+    public Produto() {
+        /*construtor padrão - fornecido de forma implicita pelo java.
+                            - parametros repassados via notação ponto
+                            - se o construtor for definido de forma explicita, o construtor padrão é substituido
+                            - para ter novamente o construtor padrão, este deve ser declarado de forma explicita*/}
+
+    public Produto(String nome, double preco){
+        /*construtor explicito - parametros repassados no proprio construtor durante a criação do objeto*/
         this.nome = nome;
         this.preco = preco;
-        this.desconto = desconto;
 
         //o this indica que os parametros repassados no construtor, serão atrelados ao objeto, nao a classe.
     }
 
     public double getPrecoFinal(){
-        return this.preco * (1 - this.desconto);
+        return preco * (1 - desconto);
     }
+
+
 
 }

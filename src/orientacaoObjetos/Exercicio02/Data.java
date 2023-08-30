@@ -14,6 +14,6 @@ public class Data {
     }
 
     public String dataFormat(){
-        return String.valueOf(this.dia)+ "/" +String.valueOf(this.mes)+ "/" + String.valueOf(this.ano);
+        return String.format("%d/%d/%d ", dia, mes, ano);
     }
 }

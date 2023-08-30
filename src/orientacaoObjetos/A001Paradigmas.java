@@ -28,4 +28,15 @@ public class A001Paradigmas {
     da definição de níveis de acesso (como público, privado e protegido). Isso evita que partes externas do programa
     acessem diretamente os detalhes internos da classe, promovendo a modularidade, segurança e manutenção do código.*/
 
+    //OBS IMPORTANTE!!!!!!:
+    /*A atribuição do Objeto é por referencia, ou seja, se um objeto for igual a o outro, o que for alterado em um será
+    alterado no outro.
+
+    ex: Carro c1 = new Carro ();
+        c1.nome = opala;
+
+        Carro c2 = c1; => aqui a referencia de endereço agora está atrelada a c1 e c2
+        c2.nome = gurgel; => ou seja, se essa atribuição for feita o c1.nome será alterado.
+     */
+
 }
