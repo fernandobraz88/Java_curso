@@ -8,10 +8,12 @@ public class AreaCirc {
 
     //construtor:
     public AreaCirc(double raio){
+
         this.raio = raio;
     }
 
     public double area(){
+
         return pi*raio*raio;
     }
 }
