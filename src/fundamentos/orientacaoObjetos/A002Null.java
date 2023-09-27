@@ -1,4 +1,4 @@
-package orientacaoObjetos;
+package fundamentos.orientacaoObjetos;
 
 public class A002Null {
 

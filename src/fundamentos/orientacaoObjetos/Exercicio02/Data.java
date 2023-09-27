@@ -1,4 +1,4 @@
-package orientacaoObjetos.Exercicio02;
+package fundamentos.orientacaoObjetos.Exercicio02;
 
 public class Data {
     int dia;

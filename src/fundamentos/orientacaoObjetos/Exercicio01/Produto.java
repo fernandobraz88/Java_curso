@@ -1,4 +1,4 @@
-package orientacaoObjetos.Exercicio01;
+package fundamentos.orientacaoObjetos.Exercicio01;
 
 public class Produto {
 

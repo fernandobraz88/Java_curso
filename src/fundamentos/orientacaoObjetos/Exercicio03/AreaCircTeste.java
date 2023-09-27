@@ -1,4 +1,4 @@
-package orientacaoObjetos.Exercicio03;
+package fundamentos.orientacaoObjetos.Exercicio03;
 
 public class AreaCircTeste {
 
