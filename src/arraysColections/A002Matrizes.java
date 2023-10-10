@@ -26,5 +26,10 @@ public class A002Matrizes {
         int [][] matriz2 = {{7,8,9},{10,11,12},{13,14,15}};
 
         System.out.println(matriz2[1][0]);
+
+        //imprimindo todos os elementos de uma matriz
+        for (int [] m: matriz2) {
+            System.out.println(Arrays.toString(m));
+        }
     }
 }
